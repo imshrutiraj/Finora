@@ -1,54 +1,122 @@
 # FINORA AI — Financial Security & Fraud Prevention Platform
 
-> **"Intelligence That Protects Your Money."**
-
-FINORA AI is a full-stack, enterprise-grade financial cybersecurity and anti-fraud platform designed for individuals, families, small merchants, and students. Developed for the **AI for Finance Hackathon**, Finora AI acts as an intelligent financial safety companion that **Detects**, **Analyzes**, and **Protects** against modern digital payment scams, phishing links, counterfeit payment receipts, and anomalous transactions.
-
+Intelligence That Protects Your Money:
+Finora AI is an AI-powered financial cybersecurity platform designed to help individuals identify, understand, and protect themselves against digital financial fraud. By combining intelligent threat analysis, financial risk assessment, and cybersecurity awareness, Finora aims to make digital payments safer for everyone.
+🚨The Problem:
+With the rapid growth of digital payments, financial scams are becoming increasingly sophisticated. People are targeted through:
+Fake banking and KYC verification messages.
+Phishing links impersonating trusted financial institutions.
+Counterfeit UPI payment screenshots.
+Suspicious payment requests and fraudulent transactions.
+Social engineering and remote-access application scams.
+Many individuals, particularly students, senior citizens, and everyday digital payment users, struggle to identify these threats before financial losses occur.
+Most people lack an accessible platform that helps them identify suspicious activity, understand why it is dangerous, and know what action to take.
+💡 Our Solution
+Finora AI brings multiple financial cybersecurity capabilities into one unified platform.
+Instead of relying on users to recognize scams themselves, Finora provides tools to analyse suspicious messages, inspect URLs, examine payment screenshots, assess transaction risks, and access personalized cybersecurity guidance.
+Our goal is to move beyond simply detecting threats and help users make safer, more informed financial decisions.
+🎯 Who Is Finora AI For?
+Students and young digital payment users.
+Individuals who regularly use UPI and online banking.
+Senior citizens who may be more vulnerable to social engineering.
+Families who want to improve their digital safety.
+Anyone who wants to verify suspicious messages, links, or payment-related activity.
+✨ Key Features
+1. Security Command Centre
+A unified dashboard providing an overview of security activity and identified threats.
+Total security scans.
+High and critical threat counts.
+Medium-risk flags and safe results.
+Weekly security activity visualization.
+Threat severity profile.
+Quick access to security modules.
+2. AI Scam Message Scanner
+Analyses suspicious SMS messages, WhatsApp messages, and banking alerts.
+Detects potential banking impersonation.
+Identifies urgency-based manipulation and suspicious language.
+Evaluates potential social engineering patterns.
+Uses Gemini contextual AI with deterministic threat-detection rules.
+Supports English and Hindi.
+3. AI Phishing URL Detector
+Helps identify suspicious and potentially malicious URLs.
+Static URL inspection without visiting the target website.
+Domain spoofing checks.
+Homoglyph detection.
+Typosquatting analysis.
+Suspicious domain structure inspection.
+4. Payment Screenshot Analyzer
+Examines uploaded payment screenshots and receipts for potential inconsistencies.
+OCR-assisted text and metadata extraction.
+Visual tampering inspection.
+Receipt examination.
+Financial safety warnings regarding payment verification.
+> A screenshot alone is not proof of a successful payment. Always verify actual credit through your bank account or merchant records.
+5. Financial Transaction Risk Analyzer
+Evaluates transaction parameters to identify unusual financial behaviour.
+Transfer amount analysis.
+Transaction timing.
+Recipient or beneficiary history.
+Payment frequency and transaction velocity.
+First-time recipient checks.
+Historical transaction baseline comparison.
+6. Finora AI Safety Assistant
+An AI-powered assistant dedicated to financial cybersecurity guidance.
+Answers queries related to UPI fraud and online banking scams.
+Provides guidance for fake KYC and phishing incidents.
+Helps users understand steps to take after encountering suspicious activity.
+Supports English and Hindi.
+Provides guidance about India's 1930 cybercrime helpline.
+7. Family Protection Mode
+Extends digital financial safety to family members.
+Protected family profiles.
+Selective sharing of security scan reports.
+Explicit-consent-based report sharing.
+Simplified safety guidelines for senior citizens.
+Family-oriented fraud awareness and protection.
+8. Financial Cybersecurity Awareness Centre
+An interactive learning centre that educates users about common digital financial scams through scenarios and questions.
+Topics include:
+UPI and QR-code payment scams.
+Fake KYC and electricity bill scams.
+Fake payment screenshots.
+Remote-access application scams.
+9. Scan History
+Provides a consolidated view of previous security scans.
+Searchable scan records.
+Scan channel and threat category.
+Risk severity and score.
+Input summary.
+Review of previously identified threats.
 ---
-
-## 🛡️ Core Highlights & Architecture
-
-- **Multi-Stage Hybrid AI Engine**: Combines Google Gemini LLM contextual reasoning with high-performance deterministic threat intelligence rules.
-- **Explainable Fraud Telemetry**: Every assessment outputs a transparent 0–100 risk score, risk level (Low, Medium, High, Critical), identified indicators, quoted evidence, actionable countermeasures, and model limitations.
-- **Indian Cybercrime Escalation (Golden Hour 1930)**: Direct built-in guidance to freeze funds within the critical 2-hour window via the National Cybercrime Helpline **1930** and **cybercrime.gov.in**.
-- **Native Bilingual Support**: Evaluates and explains threats in both **English** and **हिन्दी (Hindi)**.
-- **Strict Zero-Credential Architecture**: Never solicits, records, or stores UPI PINs, passwords, OTPs, or CVV numbers.
-- **Production-Ready Persistence**: Built for Supabase PostgreSQL with complete Row Level Security (RLS) migrations and a resilient offline-ready local store fallback.
-
+🧠 How AI Is Used
+Finora AI combines contextual AI analysis with rule-based threat detection and specialized risk-analysis techniques.
+Google Gemini AI
+Used for contextual analysis of suspicious financial messages and AI-powered cybersecurity assistance.
+Deterministic Threat Detection
+Security rules complement AI analysis to identify suspicious patterns, indicators, and threat characteristics.
+Specialized Analysis
+Different security modules use techniques suited to their input:
+Message contextual analysis.
+Static URL and domain inspection.
+OCR-assisted payment screenshot analysis.
+Transaction anomaly and risk evaluation.
+The combination aims to provide more informative security assessments than simple keyword matching alone.
 ---
+⚙️ How It Works
+User Input: The user submits a suspicious message, URL, payment screenshot, transaction details, or question.
+Analysis: Finora processes the input using the relevant AI model, security rules, or analysis techniques.
+Risk Evaluation: Suspicious patterns and risk indicators are evaluated.
+Results: The platform displays the analysis and relevant security insights.
+Action & Awareness: Users can learn about the threat and follow recommended precautions.
 
-## 🎨 Design System & Palette
-
-- **Primary Background**: `#080F1D`
-- **Secondary Background**: `#101B2D`
-- **Card Background**: `#142238`
-- **Elevated Card**: `#1A2B43`
-- **Primary Blue**: `#3B82F6`
-- **Electric Blue**: `#60A5FA`
-- **Teal Accent**: `#2DD4BF`
-- **Primary Text**: `#F8FAFC`
-- **Secondary Text**: `#94A3B8`
-- **Success / Warning / Danger**: `#22C55E` / `#F59E0B` / `#EF4444`
-- **Typography**: Inter & Manrope
-
----
-
-## 📱 12 Comprehensive Application Pages
-
-1. **Marketing Landing Page**: High-converting fintech SaaS showcase with cyber shield visual, problem statement, 6 core pillars, and workflow.
-2. **Authentication System**: Email/password signup, login, session persistence with Supabase Auth or instant demo analyst mode.
-3. **Command Dashboard**: Live telemetry calculated from actual user scans, 7-day activity area chart, risk severity pie chart, recent audit logs, and smart insights.
-4. **Module 1: AI Scam Message Scanner**: Evaluates bank impersonations, fake KYC expiry threats, electricity bill scams, and remote app requests with Hindi/English support.
-5. **Module 2: Phishing URL Detector**: Zero-click static domain forensics inspecting typosquatting, homoglyphs, subdomain stacking, and Safe Browsing threat matching.
-6. **Module 3: Payment Screenshot Analyzer**: Gemini Vision forensic receipt audit, OCR parameter extraction, tampering checks, and non-negotiable settlement warnings.
-7. **Module 4: Financial Transaction Risk Analyzer**: Statistical Z-Score outlier detection, nocturnal timing flags (1–5 AM), rapid velocity burst checks, and live sample simulation datasets.
-8. **Module 5: AI Financial Safety Assistant**: Specialized 24/7 financial cybersecurity conversational AI equipped with official Indian reporting procedures.
-9. **Module 6: Family Protection Mode**: High-legibility senior citizen interface, Hindi safety rules, and selective scan warning sharing.
-10. **Module 7: Financial Awareness Centre**: Interactive scenario quizzes ("Does this message look trustworthy?"), answer explanations, and dynamic literacy scores.
-11. **Module 8: Scan History**: Multi-channel filter, severity filter, search, date sorting, detailed modal view, JSON export, and record deletion.
-12. **Settings & Telemetry**: Analyst profile preferences, notification triggers, sensitivity thresholds, and live backend engine diagnostics.
-
----
+🛠️ Tech Stack:
+Technology	Purpose
+HTML, CSS, JavaScript-	Frontend and user interface
+Node.js-	Backend runtime
+Express.js-	Backend API framework
+Google Gemini API-	AI contextual analysis and assistance
+Supabase -	Database and backend services, where integrated.
+Netlify	- Frontend deployment, where configured.
 
 ## 📁 Repository Structure
 
