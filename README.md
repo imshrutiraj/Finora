@@ -88,7 +88,7 @@ Risk severity and score.
 Input summary.
 Review of previously identified threats.
 ---
-🧠 How AI Is Used
+🧠 How AI Is Used here 
 Finora AI combines contextual AI analysis with rule-based threat detection and specialized risk-analysis techniques.
 Google Gemini AI
 Used for contextual analysis of suspicious financial messages and AI-powered cybersecurity assistance.
