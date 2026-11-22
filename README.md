@@ -21,7 +21,7 @@ Individuals who regularly use UPI and online banking.
 Senior citizens who may be more vulnerable to social engineering.
 Families who want to improve their digital safety.
 Anyone who wants to verify suspicious messages, links, or payment-related activity.
-✨ Key Features
+✨ Key Features:
 1. Security Command Centre
 A unified dashboard providing an overview of security activity and identified threats.
 Total security scans.
